@@ -190,6 +190,7 @@ static const gamemode_info_t gamemode_info[] = {
 #endif
 	/* maintained by FreeHL ~eukara */
 	{"-halflife",	"halflife",	"FTE-HalfLife",			{"valve/liblist.gam"},			HLCFG,	{"logos", "valve"},							"Half-Life",						"https://www.frag-net.com/pkgs/list", "game_valve;fteplug_ffmpeg"},
+	{"-hl2",	"hl2",	"FTE-HalfLife2",			{"hl2/gameinfo.txt"},			HLCFG,	{"platform", "hl2"},							"Half-Life 2",						"https://www.frag-net.com/pkgs/list", "game_hl2;fteplug_ffmpeg;fteplug_hl2;fteplug_bullet"},
 #endif
 
 	{NULL}
